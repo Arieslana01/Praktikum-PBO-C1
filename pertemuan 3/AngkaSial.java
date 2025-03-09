@@ -32,6 +32,7 @@ public class AngkaSial{
  * tetapi untuk angka selain 13 IYA akan dieksekusi
  * 
  * Apakah baris 21 pada AngkaSial.java dieksekusi?
- * JAWAB = Tidak, karena exception pada as.CobaAngka(13) membuat program langsung masuk 
- * ke blok catch, sehingga as.CobaAngka(12); tidak dijalankan
+ * JAWAB = Iya, Baris 21 tetap dieksekusi (jika exception ditangani), karena setelah exception ditangani oleh blok catch, 
+ * program akan melanjutkan eksekusi ke pernyataan-pernyataan yang berada di luar blok try-catch. 
+ * Lalu baris 21 yang ada di luar blok try-catch akan tetap dieksekusi.
  */
